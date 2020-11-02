@@ -40,7 +40,7 @@ chatForm.addEventListener('submit', e => {
 
     // Clear input
     e.target.elements.msg.value = '';
-    //e.target.elements.msg.focus();
+    e.target.elements.msg.focus();
 });
 
 // Output message to DOM
